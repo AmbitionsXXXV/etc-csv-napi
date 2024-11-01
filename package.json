@@ -4,6 +4,9 @@
   "main": "index.js",
   "type": "module",
   "types": "index.d.ts",
+  "repository": {
+    "url": "https://github.com/AmbitionsXXXV/etc-csv-napi"
+  },
   "napi": {
     "name": "etc-csv-napi",
     "triples": {

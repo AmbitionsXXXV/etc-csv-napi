@@ -1,8 +1,15 @@
 {
   "name": "etc-csv-napi",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "index.js",
   "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
   "files": [
     "index.js",
     "index.d.ts"

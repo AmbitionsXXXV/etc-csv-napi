@@ -1,6 +1,6 @@
 {
   "name": "etc-csv-napi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "type": "module",
   "types": "index.d.ts",
@@ -10,6 +10,7 @@
   "napi": {
     "name": "etc-csv-napi",
     "triples": {
+      "defaults": true,
       "additional": [
         "aarch64-apple-darwin"
       ]

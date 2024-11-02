@@ -1,12 +1,11 @@
 {
   "name": "etc-csv-napi",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "index.js",
   "types": "index.d.ts",
   "files": [
     "index.js",
-    "index.d.ts",
-    "etc-csv-napi.*.node"
+    "index.d.ts"
   ],
   "repository": {
     "url": "https://github.com/AmbitionsXXXV/etc-csv-napi"

@@ -1,6 +1,9 @@
 {
   "name": "etc-csv-napi-win32-x64-msvc",
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "repository": {
+    "url": "https://github.com/AmbitionsXXXV/etc-csv-napi"
+  },
   "os": [
     "win32"
   ],

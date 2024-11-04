@@ -10,6 +10,10 @@
       "require": "./index.cjs"
     }
   },
+  "author": {
+    "name": "AmbitionsXXXV",
+    "email": "etcetera3636@gmail.com"
+  },
   "files": [
     "index.js",
     "index.d.ts"

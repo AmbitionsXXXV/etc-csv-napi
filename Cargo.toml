@@ -4,12 +4,20 @@ name = "etc-csv-napi"
 version = "0.0.0"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
+anyhow = "1.0.92"
 # Default enable napi4 feature, see https://nodejs.org/api/n-api.html#node-api-version-matrix
-napi = { version = "2.12.2", default-features = false, features = ["napi4"] }
+napi = { version = "2.12.2", default-features = false, features = [
+  "async",
+  "napi4",
+] }
 napi-derive = "2.12.2"
+polars = { version = "0.44.2", features = ["lazy", "serde"] }
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
+tokio = { version = "1.41.0", features = ["rt", "fs"] }
 
 [build-dependencies]
 napi-build = "2.0.1"

@@ -318,4 +318,3 @@ if (!nativeBinding) {
 const { sum, getTradingCalendar } = nativeBinding
 
 export { getTradingCalendar, sum }
-
